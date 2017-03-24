@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Description" content="走秀，商品"/>
+		<meta name="Keywords" content="走秀、电商"/>
+		<title>angular项目demo</title>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper/swiper-3.4.1.min.css"/>
+		
+		<script src="swiper/swiper-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/angular-route.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/homeCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/infoCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mineCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/otherCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shopcarCtrl.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<ng-include src="'html/header.html'"></ng-include>
+		<div ng-view>
+			
+		</div>
+		<ng-include src="'html/footer.html'"></ng-include>
+	</body>
+</html>
